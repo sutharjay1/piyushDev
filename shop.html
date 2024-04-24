@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gymshark E-Commerce</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      /* Black background */
+      color: #ffa500;
+      /* Orange text color */
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: #007bff;
+      /* Blue text color */
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #111;
+      /* Darker shade of black for card background */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/5155oho74-L._AC_UF894,1000_QL80_.jpg" class="card-img-top"
+            alt="Dumbbells Set">
+          <div class="card-body">
+            <h5 class="card-title">Dumbbells Set</h5>
+            <p class="card-text">&#8377;6,999</p>
+            <button class="btn btn-primary btn-block" onclick="addToCart('Dumbbells Set')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img
+            src="https://5.imimg.com/data5/YR/NO/RT/SELLER-9472675/rubber-coated-barbell-with-straight-and-curl-bar-500x500.jpg"
+            class="card-img-top" alt="Barbells">
+          <div class="card-body">
+            <h5 class="card-title">Barbells</h5>
+            <p class="card-text">&#8377;10,999</p>
+            <button class="btn btn-primary btn-block" onclick="addToCart('Barbells')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/81jBRjXUD-L._AC_UF1000,1000_QL80_.jpg" class="card-img-top"
+            alt="Exercise Mats">
+          <div class="card-body">
+            <h5 class="card-title">Exercise Mats</h5>
+            <p class="card-text">&#8377;1,499</p>
+            <button class="btn btn-primary btn-block" onclick="addToCart('Exercise Mats')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/4115QXR9+ML._AC_UF1000,1000_QL80_.jpg" class="card-img-top"
+            alt="Wrist Bands">
+          <div class="card-body">
+            <h5 class="card-title">Wrist Bands</h5>
+            <p class="card-text">&#8377;599</p>
+            <button class="btn btn-primary btn-block" onclick="addToCart('Wrist Bands')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img src="https://images-cdn.ubuy.co.in/66123d71e7d05f37f574a95c-oma-treadmills-for-home-5925-6134-6830.jpg"
+            class="card-img-top" alt="Machines">
+          <div class="card-body">
+            <h5 class="card-title">Machines</h5>
+            <p class="card-text">&#8377;59,999</p>
+            <button class="btn btn-primary btn-block" onclick="addToCart('Machines')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT43ckEgs1_TI2LEM9DY4433WjJo0JRRubSr1ZKHYJsiQ&s"
+            class="card-img-top" alt="Lifting Belts">
+          <div class="card-body">
+            <h5 class="card-title">Lifting Belts</h5>
+            <p class="card-text">&#8377;499</p>
+            <button class="btn btn-primary btn-block" onclick="addToCart('Lifting Belts')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more products here -->
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Gymshark E-Commerce</p>
+  </div>
+
+  <!-- Bootstrap JS, jQuery, and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
